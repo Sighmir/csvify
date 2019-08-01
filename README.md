@@ -11,7 +11,7 @@ If you are using Node.js, install csvify using npm:
 $ npm install @sighmir/csvify
 ```
 
-You can now require and use jsgrafana like so:
+You can now require and use csvify like so:
 
 ```js
 let csvify = require('@sighmir/csvify')
