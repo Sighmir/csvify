@@ -1,4 +1,4 @@
-# jsGrafana #
+# csvify #
 
 **csvify** is a simple Javascript module to convert JSON Objects to CSV.
 
