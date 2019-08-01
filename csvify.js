@@ -11,6 +11,7 @@ const csvify = (obj) => {
   const uncamel = (str) => {
     let aux = ''
     let upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    if (str === str.toUpperCase()) str = str.toLowerCase()
     for (let c of str) {
       if (aux === '') aux += c.toUpperCase()
       else if (upper.includes(c) && !upper.includes(aux[aux.length])) aux += ` ${c}`
