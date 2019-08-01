@@ -1,0 +1,26 @@
+{
+  "name": "@sighmir/csvify",
+  "version": "1.0.0",
+  "description": "A simple JSON Object to CSV converter",
+  "main": "index.js",
+  "dependencies": {},
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sighmir/csvify.git"
+  },
+  "author": "Guilherme Caulada (Sighmir)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Sighmir/csvify/issues"
+  },
+  "homepage": "https://github.com/Sighmir/csvify#readme",
+  "keywords": [
+    "csv"
+  ]
+}
